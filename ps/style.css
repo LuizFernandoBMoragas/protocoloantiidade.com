@@ -18,7 +18,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 /* 	background: url("../assets/img/zen-1661245444760-9900.jpg") no-repeat fixed center; */
-	background: #d9e2e5;
+	background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
 	background-size: cover;
 }
 
