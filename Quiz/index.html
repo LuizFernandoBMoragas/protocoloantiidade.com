@@ -83,17 +83,17 @@
 <div id="primeira">
 <div class="question">
 <h1>Pergunta 1</h1>
-<p>Você realmente quer descobrir esse segredo?</p>
+<p>Qual a sua idade?</p>
 </div>
 <div class="answer">
-<button class="btn" onclick="segunda()">SIM</button>
-<button class="btn" onclick="segunda()">NÃO</button>
+<button class="btn" onclick="segunda()">MENOS DE 30 ANOS</button>
+<button class="btn" onclick="segunda()">MAIS DE 30 ANOS</button>
 </div>
 </div>
 <div id="segunda" class="hide">
 <div class="question">
 <h1>Pergunta 2</h1>
-<p>Você promete não revelar pra ninguém?</p>
+<p>Você está aberta a novas experiências?</p>
 </div>
 <div class="answer">
 <button class="btn" onclick="terceira()">SIM</button>
@@ -103,11 +103,10 @@
 <div id="terceira" class="hide">
 <div class="question">
 <h1>Pergunta 3</h1>
-<p>O vídeo a seguir tem um limite pra pouquíssimas pessoas verem... Você pretende ver até o final?</p>
+<p>O vídeo a seguir tem um limite pra pouquíssimas pessoas verem... e foi reservado uma vaga para você!</p>
 </div>
 <div class="answer">
-<button class="btn" onclick="redirect()">SIM</button>
-<button class="btn" onclick="redirect()">NÃO</button>
+<button class="btn" onclick="redirect()">ASSISTIR AGORA</button>
 </div>
 </div>
 </div>
@@ -123,7 +122,7 @@
       document.getElementById("terceira").classList.remove("hide")
     }
     function redirect() {
-      location.href = "https://protocoloantiidade.com/ps"
+      location.href = "https://protocoloantiidade.com/"
     }
   </script>
 </body>
